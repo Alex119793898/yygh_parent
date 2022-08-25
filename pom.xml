@@ -4,12 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>common</module>
-        <module>common_utils</module>
-        <module>common/common_utils</module>
-        <module>common/service_utils</module>
         <module>model</module>
         <module>service</module>
-        <module>service_user</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,11 +13,11 @@
         <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.atguigu</groupId>
+    <groupId>com.atguigu.yygh</groupId>
     <artifactId>yygh_parent</artifactId>
     <packaging>pom</packaging>
 
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>yygh_parent</name>
     <description>挂号平台</description>
 
@@ -30,7 +26,7 @@
         <cloud.version>Hoxton.RELEASE</cloud.version>
         <alibaba.version>2.2.0.RELEASE</alibaba.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
-        <mysql.version>5.1.46</mysql.version>
+        <mysql.version>8.0.15</mysql.version>
         <swagger.version>2.7.0</swagger.version>
         <jwt.version>0.7.0</jwt.version>
         <fastjson.version>1.2.29</fastjson.version>
